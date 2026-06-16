@@ -1,0 +1,80 @@
+chat-input:
+  SignAPI: true
+  ChatAPI: false
+sign-gui:
+- ''
+- ↑↑↑↑↑↑↑↑↑↑↑↑↑
+- '   Search   '
+- ''
+gui:
+  title: '&8ᴛᴇᴀᴍ (Trang %current_page%)'
+  rows: 6
+background:
+  fill: false
+  material: BLACK_STAINED_GLASS_PANE
+  name: ''
+  lore: []
+items:
+  search:
+    material: OAK_SIGN
+    name: '&#34eb9bᴛÌᴍ ᴋɪếᴍ'
+    lore:
+    - '&fNhấp để tìm kiếm'
+    slot: 45
+    action: SEARCH
+  sort:
+    material: HOPPER
+    name: '&#34eb9bꜱắᴘ xếᴘ'
+    selected-prefix: '&#34eb9b• '
+    unselected-prefix: '&f• '
+    slot: 46
+    action: SORT
+    options:
+      ONLINE_MEMBERS: Đang online
+      PERMISSIONS: Quyền hạn
+      JOIN_DATE: Ngày gia nhập
+      ALPHABETICALLY: Bảng chữ cái
+  back:
+    material: ARROW
+    display-name: '&#34eb9bQᴜᴀʏ ʟạɪ'
+    lore:
+    - '&fNhấp để quay lại trang trước'
+    slot: 48
+    action: BACK
+  team-info:
+    material: IRON_HELMET
+    display-name: '&#34eb9bᴛᴇᴀᴍ %team%'
+    lore:
+    - '&fNhấp để làm mới'
+    - '&fTối đa 27 thành viên'
+    slot: 49
+    action: REFRESH
+  next:
+    material: ARROW
+    display-name: '&#34eb9bᴛɪếᴘ ᴛʜᴇᴏ'
+    lore:
+    - '&fNhấp để đến trang tiếp theo'
+    slot: 50
+    action: NEXT
+  team-home:
+    material: WHITE_BANNER
+    display-name: '&#34eb9bʜᴏᴍᴇ ᴛᴇᴀᴍ'
+    lore:
+    - '&fĐặt home bằng /team sethome'
+    slot: 52
+    action: HOME
+  pvp:
+    material: DIAMOND_SWORD
+    display-name: '&#34eb9bᴘᴠᴘ ᴛᴇᴀᴍ'
+    lore:
+    - '&fHiện tại: %pvp-status%'
+    status:
+      enabled: '&#34eb9b&lBẬT'
+      disabled: '&#FF0000&lTẮT'
+    slot: 53
+    action: PVP
+  source-item:
+    material: PLAYER_HEAD
+    display-name: '&#34eb9b%player%'
+    lore:
+    - '&fNhấp để quản lý'

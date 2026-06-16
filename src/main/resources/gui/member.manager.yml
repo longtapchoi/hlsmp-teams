@@ -1,0 +1,55 @@
+gui:
+  title: '&8Qᴜảɴ ʟÝ ᴛʜàɴʜ ᴠɪêɴ'
+  rows: 3
+items:
+  pvp_toggle:
+    material: DIAMOND_SWORD
+    slot: 10
+    title: '&#34eb9bᴘᴠᴘ ᴛᴇᴀᴍ'
+    lore:
+    - '&fTrạng thái: %status%'
+    - '&7Nhấp để thay đổi'
+    enabled_status: '&#02de4fCho phép'
+    disabled_status: '&#e00202Từ chối'
+  team_home_access:
+    material: LIGHT_GRAY_BED
+    slot: 11
+    title: '&#34eb9bᴛʀᴜʏ ᴄậᴘ ʜᴏᴍᴇ'
+    lore:
+    - '&fTruy cập: %status%'
+    - '&7Nhấp để thay đổi'
+    enabled_status: '&#02de4fCho phép'
+    disabled_status: '&#e00202Từ chối'
+  team_home_set:
+    material: RED_BED
+    slot: 12
+    title: '&#34eb9bĐặᴛ ʜᴏᴍᴇ'
+    lore:
+    - '&fQuyền: %status%'
+    - '&7Nhấp để thay đổi'
+    enabled_status: '&#02de4fCho phép'
+    disabled_status: '&#e00202Từ chối'
+  delete_team:
+    material: BARRIER
+    slot: 13
+    title: '&#34eb9bXóᴀ ᴛᴇᴀᴍ'
+    lore:
+    - '&fQuyền: %status%'
+    - '&7Nhấp để thay đổi'
+    enabled_status: '&#02de4fCho phép'
+    disabled_status: '&#e00202Từ chối'
+  manage_members:
+    material: PLAYER_HEAD
+    slot: 14
+    title: '&#34eb9bQᴜảɴ ʟÝ ᴛʜàɴʜ ᴠɪêɴ'
+    lore:
+    - '&fQuyền: %status%'
+    - '&7Nhấp để thay đổi'
+    enabled_status: '&#02de4fCho phép'
+    disabled_status: '&#e00202Từ chối'
+  back:
+    material: ARROW
+    slot: 18
+    title: '&#34eb9bQᴜᴀʏ ʟạɪ'
+    lore:
+    - '&fNhấp để quay lại'

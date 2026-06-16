@@ -1,0 +1,73 @@
+prefix-enable: false
+prefix: ""
+
+errors:
+  team-already-exists: "&cTên team này đã tồn tại!"
+  already-in-team: "&cBạn đã ở trong một team rồi!"
+  not-in-team: "&cBạn chưa ở trong team nào!"
+  not-leader: "&cChỉ trưởng team mới thực hiện được!"
+  player-not-found: "&cKhông tìm thấy người chơi!"
+  player-already-in-team: "&cNgười chơi này đã ở trong team rồi!"
+  player-invite-disabled: "&c%player% đã tắt nhận lời mời team!"
+  no-pending-invites: "&cBạn không có lời mời nào!"
+  team-not-found: "&cTeam không còn tồn tại!"
+  leader-cant-leave: "&cTrưởng team không thể rời! &7/team delete"
+  player-not-in-your-team: "&cNgười chơi này không ở trong team bạn!"
+  insufficient-rank: "&cBạn không có quyền thực hiện điều này!"
+  no-team-home: "&cTeam chưa đặt home!"
+  cannot-kick: "&cBạn không thể kick người này!"
+  team-full: "&cTeam đã đầy!"
+  cannot-manage-self: "&cBạn không thể quản lý chính mình!"
+  cannot-edit-owner: "&cBạn không thể quản lý trưởng team!"
+  team-home-disabled: "&cChức năng team home đang tắt!"
+  blocked-team-name: "&cTên team này không được phép!"
+  invalid-team-name-length: "&cTên team phải từ %min% đến %max% ký tự!"
+
+team:
+  pvp-enabled: "&aĐã bật PvP trong team!"
+  pvp-disabled: "&cĐã tắt PvP trong team!"
+  pvp-disabled-damage: "&cBạn không thể tấn công đồng đội!"
+  plugin-reloaded: "&#00FF00Đã tải lại plugin thành công!"
+  created: "&fTeam &#34eb9b%team% &fđã được tạo"
+  invite-sent: "&fĐã gửi lời mời đến &#34eb9b%player%"
+  invite-received:
+    - "&fBạn được mời vào team &#34eb9b%team%&f! &7/team join %team%"
+  invite-toggle-on: "&#00FF00Đã bật nhận lời mời team!"
+  invite-toggle-off: "&#FC0000Đã tắt nhận lời mời team!"
+  joined: "&fBạn đã gia nhập team &#34eb9b%team%"
+  member-joined: "&fNgười chơi &#34eb9b%player% &fđã gia nhập team"
+  left: "&#FC0000Bạn đã rời team!"
+  member-left: "&fNgười chơi &#34eb9b%player% &fđã rời team!"
+  player-kicked: "&cĐã kick %player% khỏi team!"
+  you-were-kicked: "&cBạn đã bị kick khỏi team!"
+  deleted: "&cTeam %team% đã bị giải tán!"
+  home-set: "&aĐã đặt home team!"
+  home-deleted: "&cĐã xóa home team!"
+  new-owner: "&fĐã chuyển quyền trưởng team cho &#34eb9b%player%"
+  teleport-countdown: "&fTeleport sau &#34eb9b%count% &fgiây"
+  teleport-completed: "&aĐã teleport đến home team!"
+  already-teleporting: "&cBạn đang teleport rồi!"
+  teleport-cancelled: "&cĐã hủy teleport!"
+  chat-enabled: "&aĐã bật chat team!"
+  chat-disabled: "&cĐã tắt chat team!"
+  chat-format: "&#34eb9b[TEAM] %player%&f: %message%"
+
+command-usage: |
+  &#34eb9b&lTEAM
+  &#34eb9b➤ &f/team &7- Mở giao diện team
+  &#34eb9b➤ &f/team create <tên> &7- Tạo team
+  &#34eb9b➤ &f/team invite <người chơi> &7- Mời vào team
+  &#34eb9b➤ &f/team join <team> &7- Gia nhập team
+  &#34eb9b➤ &f/team leave &7- Rời team
+  &#34eb9b➤ &f/team kick <người chơi> &7- Kick thành viên
+  &#34eb9b➤ &f/team delete &7- Giải tán team
+  &#34eb9b➤ &f/team transfer <người chơi> &7- Chuyển quyền
+  &#34eb9b➤ &f/team sethome &7- Đặt home team
+  &#34eb9b➤ &f/team home &7- Teleport home team
+  &#34eb9b➤ &f/team delhome &7- Xóa home team
+  &#34eb9b➤ &f/team chat <tin nhắn> &7- Chat nội bộ
+  &#34eb9b➤ &f/team chat toggle &7- Bật/tắt chat team
+
+command-usage-admin: |
+  &#FC0000&lTEAM ADMIN
+  &#FC0000➤ &f/team reload &7- Tải lại plugin
